@@ -1,0 +1,31 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.rubik {
+    font-family: "Rubik Pixels";
+}
+.sendgwick {
+    font-family: "Sedgwick Ave Display";
+}
+.dancing {
+    font-family: "Dancing Script";
+}
+.fjalla {
+    font-family: "Fjalla One";
+}
+.indie {
+    font-family: "Indie Flower";
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    padding: 50px 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.item {
+    width: 250px;
+    height: 300px;
+    border: 1px solid aqua;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+h2 {
+    text-align: center;
+}
+img {
+    width: 70%;
+    height: 70%;
+
+}
