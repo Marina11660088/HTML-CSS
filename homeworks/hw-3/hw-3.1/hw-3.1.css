@@ -1,0 +1,29 @@
+body{
+    margin: 2%;
+}
+header {
+    height: 50vh;
+    background-color: #53eaea;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 0;
+}
+section {
+    height: 50vh;
+    width: 30%;
+    background-color: #108484;
+}
+footer {
+    height: 80vh;
+    background-color: aqua;
+}
+header, section, footer {
+    color: aliceblue;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

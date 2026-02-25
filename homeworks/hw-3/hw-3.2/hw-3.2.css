@@ -1,0 +1,18 @@
+section{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+
+}
+.first {
+    background-color: rosybrown;
+
+
+}
+.second {
+    background-color: #292626;
+    color: white;
+}
