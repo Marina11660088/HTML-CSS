@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+}
+header {
+    height: 20vh ;
+    background: #8D8484;
+}
+footer {
+    height: 20vh ;
+    background: #BDBDBD;
+}
+main {
+    display: flex;
+}
+section {
+    height: 20vh;
+    width: 73vw;
+}
+.first-section {
+    background: #776969;
+}
+.second-section {
+    background: #643030;
+}
+.third-section {
+    background: #441818;
+}
+aside {
+    width: 27vw;
+    height: 30vh;
+}
+.first-aside {
+    background: #937575;
+}
+.second-aside {
+    background: #644C4C;
+}
+header, footer, aside, section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+aside p, section p {
+    color: #FFF;
+}
+
+
+
+
+

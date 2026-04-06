@@ -11,16 +11,17 @@ header {
     justify-content: space-between;
     padding: 2% 0;
 }
-section {
+article {
     height: 50vh;
     width: 30%;
     background-color: #108484;
+
 }
 footer {
     height: 80vh;
     background-color: aqua;
 }
-header, section, footer {
+header, article, footer {
     color: aliceblue;
     font-size: 35px;
     display: flex;
