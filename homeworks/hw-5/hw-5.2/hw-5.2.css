@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square {
+    background: gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 4%;
+    border: 10px solid lightgrey;
+    animation: preloader 5s infinite linear alternate;
+}
+@keyframes preloader {
+    from {
+        transform: skew(30deg, 20deg);
+    }
+    to {
+        transform: skew(-30deg, -20deg);
+    }
+
+}
